@@ -1,0 +1,34 @@
+============================================================
+Time  2019/11/07 20:31:12 593 
+============================================================
+[2019/11/07 20:31:12 593] ivw_local  1342 os_type is:  Linux  
+[2019/11/07 20:31:12 593] ivw_local  1351 ivw loaded!  
+[2019/11/07 20:31:12 593] ivw_local  1353 1001.60.1437  
+[2019/11/07 20:31:12 593] ivw_local  1376 last gc at  1573129863  
+[2019/11/07 20:31:12 593] ivw_local  1286 SYS_MSG_REGCB  msp_status_cb  func(5003aea0) 
+[2019/11/07 20:31:12 593] ivw_local  1376 last gc at  1573129863  
+[2019/11/07 20:31:12 594] ivw_local  1097 IVW_LOCAL_INIT_CHECK  
+[2019/11/07 20:31:12 594] ivw_local  1103 ivw_res_path:  fo|res/ivw/wakeupresource.jet  
+[2019/11/07 20:31:12 594] ivw_local  732  lgi:  nil  nil  
+[2019/11/07 20:31:12 594] ivw_local  736  fo|res/ivw/wakeupresource.jet  1  
+[2019/11/07 20:31:12 594] ivw_local  527  err  0  
+[2019/11/07 20:31:12 594] ivw_local  528  res_ver  3  
+[2019/11/07 20:31:12 594] ivw_local  529  res_appid_md5    
+[2019/11/07 20:31:12 594] ivw_local  530  res_id    
+[2019/11/07 20:31:12 594] ivw_local  531  |%fsoniah%=|%fwwnc%=%2cefd3ce%+%ubtnc%=%03244136eef45a>4eb7a5db>e>5b1b6b%+%ubts~wb%=%c%z+%nqpphuc%=|%irj%=5+%phuct%=\|%nc%=7+%sbs%=%cnfi3kn3er3}r5%+%soubtohkc%=6327z+|%nc%=6+%sbs%=%vni`4dohi`6cnfi3ph6%+%soubtohkc%=6327zZz+%ubttn}b%=>>6733+%ubtsnjb%=620475?077+%ubtqbu%=%q1777%z  
+[2019/11/07 20:31:12 594] ivw_local  539  speech_plus_setting  0  
+[2019/11/07 20:31:12 595] ivw_local  591  dian4li4bu4zu2  0  1450  
+[2019/11/07 20:31:12 595] ivw_local  591  qing3chong1dian4wo1  1  1450  
+[2019/11/07 20:31:12 595] ivw_local  623  d  
+[2019/11/07 20:31:12 595] ivw_local  652  now expires:  1573129872  nil  
+[2019/11/07 20:31:12 595] auth       82   ivw  app  nil  74533641bba32f93be0f2ce9b92e6e1e  {"ivw":{"ver":"2","bus":{"forbid":"0","nlimit":60},"res":{"md5":"74533641bba32f93be0f2ce9b92e6e1e","blist":{}}}}  
+[2019/11/07 20:31:12 595] auth       243  nil  
+[2019/11/07 20:31:12 595] auth       252  auth ivw_res_id  74533641bba32f93be0f2ce9b92e6e1e  
+[2019/11/07 20:31:12 595] auth       266  auth get ivw_res_id  74533641bba32f93be0f2ce9b92e6e1e  
+[2019/11/07 20:31:12 595] auth       354  nil  
+[2019/11/07 20:31:12 595] ivw_local  703  forbid_ivw =  0  
+[2019/11/07 20:31:12 595] ivw_local  1136 0  res/ivw/wakeupresource.jet  nil  nil  286  0  0  0:1450;1:1450;  0:dian4li4bu4zu2;1:qing3chong1dian4wo1;  
+[2019/11/07 20:31:12 601] ivw_local  1334 IVW_LOCAL_INSTSID param0 param1  civw1P1HHBHj3mzE5SJ-Taw0Ih5OZ0tvmY6  udata(674f3450) 
+[2019/11/07 20:31:12 601] ivw_local  1376 last gc at  1573129863  
+[2019/11/07 20:31:13 010] ivw_local  1263 SYS_MSG_UNLOAD  
+[2019/11/07 20:31:13 010] ivw_local  1376 last gc at  1573129863  
