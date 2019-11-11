@@ -86,17 +86,26 @@ int cb_ivw_msg_proc( const char *sessionID, int msg, int param1, int param2, con
 		record_state = MSP_AUDIO_SAMPLE_LAST;
 	}else if (MSP_IVW_MSG_WAKEUP == msg){ //唤醒成功消息
 		printf("\n\ninfo = %s\n", (char*)info);
-
+		
 		Json::Value bizParamJson;
 		Json::Reader reader;
 		if (!reader.parse((char*)info, bizParamJson, false)) {
 			cout << "parse error!" << info << endl;
 		}
 
-		Json::Value data = (bizParamJson["keyword"]); //電力不足 請充電喔
-		cout << "Parse: " << data << endl;
-		if(data.asString() == "dian4-li4-bu4-zu2" || data.asString() == "qing3-chong1-dian4-wo1"){
-			cout << "GOOOOOOOOOOOOOOOD" << endl;
+		Json::Value data = (bizParamJson["id"]); //電力不足 請充電喔
+		cout << "Parse: " << (bizParamJson["keyword"]) << endl;
+		if(data.asString() == "0" ){
+			cout << "電池電力不足" << endl;
+		}
+		else if(data.asString() == "1"){
+			cout << "請更換電池" << endl;
+		}
+		else if(data.asString() == "2"){
+			cout << "請檢查儀器" << endl;
+		}
+		else if(data.asString() == "3"){
+			cout << "請洽詢客服" << endl;
 		}
 		g_is_awaken_succeed = TRUE;
 		record_state = MSP_AUDIO_SAMPLE_LAST;
