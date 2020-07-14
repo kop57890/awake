@@ -1,2 +1,2 @@
 # awake
-Offline awaken
+Using iflytek's SDK to customized offline awaken
